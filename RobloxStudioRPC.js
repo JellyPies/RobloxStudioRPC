@@ -3,11 +3,11 @@ let DiscordRPC = require("discord-rpc");
 let rpc = new DiscordRPC.Client({transport: "ipc"});
 let port = 52337;
 let iconEnabled = false;
-let clientId = "533455508254883862";
+let clientId = "745301536988594297";
 
 function setActivity(details, state) {
   let startTimestamp = new Date();
-  let activity = {startTimestamp};
+  let activity = {};
   if (details) activity.details = details;
   if (state) {
 	  activity.state = state;
@@ -36,4 +36,4 @@ http.createServer((req, res) => {
 	});
 }).listen(port, () => {console.log("Listening on port " + port)});
 
-rpc.login({clientId}).catch(console.error).then(() => {setActivity("Idling")});
+rpc.login({clientId}).catch(console.error).then(() => {setActivity("Working Hard")});

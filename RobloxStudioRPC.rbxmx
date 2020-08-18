@@ -41,7 +41,7 @@ end
 UpdateRPC()
 
 plugin.Unloading:Connect(function()
-	ActivityInfo = "Idling"
+	ActivityInfo = "Working Hard"
 	UpdateRPC()
 end)]]></ProtectedString>
 				<BinaryString name="Tags"></BinaryString>
