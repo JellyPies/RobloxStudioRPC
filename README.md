@@ -1,5 +1,5 @@
-[![Latest Stable Version](https://poser.pugx.org/JellyPies/RobloxStudioRPC/v)](//packagist.org/packages/JellyPies/RobloxStudioRPC)
-[![License](https://poser.pugx.org/JellyPies/RobloxStudioRPC/license)](//packagist.org/packages/JellyPies/RobloxStudioRPC)
+[![Latest Stable Version](https://poser.pugx.org/JellyPies/RobloxStudioRPC/v)
+[![License](https://poser.pugx.org/JellyPies/RobloxStudioRPC/license)
 # RobloxStudioRPC
 Discord Rich Presence for Roblox Studio.
 ## Warning
